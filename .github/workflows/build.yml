@@ -8,10 +8,6 @@ on:
       - 'LICENSE'
       - '.gitignore'
   workflow_dispatch:
-  schedule:
-    # Nightly at 09:00 UTC — picks up Facepunch engine releases on the
-    # next morning without anyone thinking about it.
-    - cron: '0 9 * * *'
 
 permissions:
   contents: read
